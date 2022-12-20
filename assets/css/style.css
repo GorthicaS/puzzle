@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controls {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .controls form {
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .controls input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .controls select {
+    margin-bottom: 20px;
+  }
+  .puzzle-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .puzzle-piece {
+    width: 20%;
+    padding-bottom: 20%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }

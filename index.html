@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Puzzle</title>
+</head>
+<body>
+    <h1>Puzzle</h1>
+    <!-- Container for the image and controls -->
+    <div class="container">
+      <!-- Container for displaying the selected image -->
+      <div class="image-container">
+        <!-- Zone pour afficher l'image chargée -->
+      </div>
+      <!-- Container for the controls -->
+      <div class="controls">
+        <!-- Form for selecting the image file -->
+        <form>
+          <label for="file-input">Choisissez une image à partir de votre ordinateur :</label>
+          <input type="file" id="file-input" accept="image/*">
+        </form>
+        <!-- Select element for choosing the number of puzzle pieces -->
+        <label for="piece-count">Nombre de pièces :</label>
+        <select id="piece-count">
+          <option value="300">300</option>
+          <option value="600">600</option>
+          <option value="1500">1500</option>
+          <option value="3000">3000</option>
+          <option value="5000">5000</option>
+        </select>
+        <!-- Button for generating the puzzle -->
+        <button id="generate-button">Générer le puzzle</button>
+      </div>
+      <!-- Container for the puzzle pieces -->
+      <div class="puzzle-container">
+        <!-- Zone pour afficher les pièces du puzzle -->
+      </div>
+    </div>
+    <!-- Link to the external script -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
